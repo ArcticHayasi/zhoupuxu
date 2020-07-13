@@ -6,48 +6,34 @@
 title {text-align: left;}
 
 head {
-    font-family: "hydra";  
+    font-family: "Times New Roman";
     font-size: 28px;
 }
 
-p {
-    font-family: "hydra";  
-    font-size: 20px;
+body {
+    font-family: "Times New Roman";
+    font-size: 20px;  
     line-height: 1.5;
-    margin: 10px 50px;
-    text-indent: 46px;
+    margin: 15px 50px;
 }
 
 h1 {
-    font-family: "hydra";  
     font-size: 35px;
     line-height: 1.25;
 }
 
 h2 {
-    font-family: "hydra";  
     font-size: 30px;
     line-height: 1.25;
     text-align: center;
 }
 
 h3 {
-    font-family: "hydra";  
     font-size: 25px;
     line-height: 1.25;
     padding: 10px 5px;
 }
 
-body {
-    font-family: "hydra";  
-    font-size: 20px;
-    line-height: 1.5;
-    margin: 15px 50px;
-}
-
 li {
-    font-family: "hydra";  
-    font-size: 20px;
-    line-height: 1.5;
     margin: 10px 50px;
 }
