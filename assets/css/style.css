@@ -3,7 +3,7 @@
     src: url('/zhoupuxu/assets/fonts/kindlekai.ttf') format('truetype');
 }
 
-tytle {text-align: left;}
+title {text-align: left;}
 
 head {
     font-family: "hydra";  
@@ -22,8 +22,6 @@ h1 {
     font-family: "hydra";  
     font-size: 35px;
     line-height: 1.25;
-    text-align: center;
-
 }
 
 h2 {
