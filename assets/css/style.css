@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "hydra";
+    src: url('/zhoupuxu/assets/fonts/kindlekai.ttf') format('truetype');
+}
+
+tytle {text-align: left;}
+
+head {
+    font-family: "hydra";  
+    font-size: 28px;
+}
+
+p {
+    font-family: "hydra";  
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 10px 50px;
+    text-indent: 46px;
+}
+
+h1 {
+    font-family: "hydra";  
+    font-size: 35px;
+    line-height: 1.25;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: "hydra";  
+    font-size: 30px;
+    line-height: 1.25;
+    text-align: center;
+}
+
+h3 {
+    font-family: "hydra";  
+    font-size: 25px;
+    line-height: 1.25;
+    padding: 10px 5px;
+}
+
+body {
+    font-family: "hydra";  
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 15px 50px;
+}
+
+li {
+    font-family: "hydra";  
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 10px 50px;
+}
