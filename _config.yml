@@ -1,0 +1,44 @@
+# Site settings
+title: ノート # 博客名称
+description: "其中一窟"
+url:  "https://arctichayasi.github.io/nooto" # 博客地址
+author:
+  name: "周浦墟" #你的昵称
+  url: "https://arctichayasi.github.io/nooto/" # 博客地址
+permalink: /:year/:month/:day/:title:output_ext
+
+#Plugins
+plugins: [jekyll-paginate, jekyll-sitemap, jekyll-archives]
+
+#Pagination
+paginate: 5 # 每页文章数
+paginate_path: "/page:num/"
+
+#Default layouts
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
+lang: en_US
+
+#Highlighter
+kramdown:
+  input:          GFM
+  syntax_highlighter: rouge
+
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+
+#Sass
+sass:
+  style: compressed
+  sourcemap: never
+  
