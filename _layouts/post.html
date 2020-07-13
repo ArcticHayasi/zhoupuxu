@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+    <title>
+        {% if page.title == "Home" %}
+            {{ site.title }} | {{ site.description }}
+        {% else %}
+            {{ page.title }} | {{ site.title }}
+      {% endif %}
+    </title>
+    <meta name="description" content="
+     {% if page.description %}{{ page.description }}
+     {% else %}{{ site.description }}
+    {% endif %}">
+
+      <article id = "post">
+        <h2 id = "post-title">{{ page.title }}</h2>
+
+  {% if site.data.settings.date-under-post.active %}
+  <div class = "post-info">
+    <span>
+        <i class="far fa-calendar" aria-hidden="true"></i> <span>{{ page.date | date_to_string }}</span> 
+    </span>
+  </div>
+  {% endif %}
+        {{ content }}
+      </article>
+  
+    {% if site.data.settings.categories.active %}
+      {% include categories.html %}
+    {% endif %}
+
+    {% if site.data.settings.related-posts.active %}
+      {% include related-posts.html %}
+    {% endif %}
