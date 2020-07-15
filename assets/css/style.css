@@ -6,12 +6,12 @@
 title {text-align: left;}
 
 head {
-    font-family: "Times New Roman", "Montserrat";
+    font-family: "Times New Roman", sans-serif;
     font-size: 28px;
 }
 
 body {
-    font-family: "Times New Roman", "Montserrat";
+    font-family: "Times New Roman", sans-serif;
     font-size: 20px;  
     line-height: 1.5;
     margin: 15px 50px;
