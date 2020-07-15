@@ -1,17 +1,17 @@
 @font-face {
     font-family: "hydra";
-    src: url('/zhoupuxu/assets/fonts/kindlekai.ttf') format('truetype');
+    src: url('/zhoupuxu/assets/fonts/WenDingCSZhongDengXian-1.ttf') format('truetype');
 }
 
 title {text-align: left;}
 
 head {
-    font-family: "Times New Roman";
+    font-family: "Times New Roman", "hydra";
     font-size: 28px;
 }
 
 body {
-    font-family: Times New Roman, sans-serif;
+    font-family: Times New Roman, "hydra";
     font-size: 20px;  
     line-height: 1.5;
     margin: 15px 50px;
